@@ -11,6 +11,8 @@ body{
 }
 h1{
     color:white;
+    font-family:'Press Start 2P';
+    font-size: 40px;
 }
 .card-body{
     color:white;
