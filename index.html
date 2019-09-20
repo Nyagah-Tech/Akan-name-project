@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
         <title>Akan Name Engine.</title>
         <link href="css/style.css" rel="stylesheet">
     </head>
@@ -8,7 +9,7 @@
         <center><h1>Akan Name Engine.</h1></center>
         <p>The Akan Name Engine is a web_application that derives a Ghanian Akan name for the user.Akanian naming is a
              Ghanian culture that emphasizes on </p>
-        <p>giving chlidren their first name as a "day name" whichcorresponds to the day in the week they were born.</p> 
+        <p>giving chlidren their first name as a "day name" which corresponds to the day in the week they were born.</p> 
         <p>To do this the user has to input his or her birthday and and the gender, then Akan Name 
             Engine calculates  the day of the they were born and then</p> 
          <p>depending on their gender it outputs their Akan Name.To enjoy this services you have to input your gender and birthday below.
@@ -16,21 +17,23 @@
         <center>
                 <div class="card">
                         <div class="card-body">
-                                <form>
+                                <form name="myForm" onsubmit="event.preventDefault(); calculator()">
                                         <h3><b>Gender</b></h3><br>
-                                        <input type="radio" name="gender" value="male">  <b>Male</b><br><br>
-                                        <input name="gender" type="radio" value="Female">  <b>Female</b><br><br><br>
+                                        <select name="gender" id="gender">
+                                            <option name="male"value="male">Male</option>
+                                            <option name="female" value="female">Female</option>
+                                        </select>
                                         <h3><b>Date of birth</b></h3><br>
-                                        <input type="date" name="date" value="date">  <b>Date</b><br><br>
-                                        <button type="button" onclick="calculator()"> <b>Submit</b></button>
+                                        <input type="date" name="date">  <b>Date</b><br><br>
+                                        <input type="submit" value="Submit" > <b>Submit</b></button>
                                 </form>
                         </div><br>
                         <div class="card-footer">
                             <p><b>Thank you for trying out th Akan Name Engine..</b></p>
                         </div>
                     </div>
+                    <p id="result"></p>
                    
         </center>
-        
     </body>
 </html>

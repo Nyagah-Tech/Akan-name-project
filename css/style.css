@@ -1,6 +1,7 @@
 p{
     text-align: center;
     color:white;
+    font-size: 20px;
 }
 body{
     background-image: url("https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapertag.com%2Fwallpaper%2Ffull%2Fc%2F0%2F0%2F382612-plain-backgrounds-1920x1200-pictures.jpg&f=1&nofb=1");
@@ -10,4 +11,8 @@ body{
 }
 h1{
     color:white;
+}
+.card-body{
+    color:white;
+    font-size: 30px;
 }
