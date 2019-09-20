@@ -20,6 +20,8 @@ function calculator(){
         console.log("invalid option")
     }
     document.getElementById("result").innerHTML=name;
+    window.scrollTo(0,document.body.scrollHeight);
+   
     return name;
   
 }
