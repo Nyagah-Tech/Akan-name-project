@@ -12,11 +12,11 @@ body{
 }
 
 h1{
-    color:rgba(180, 212, 233, 0.808);
+    color:rgba(197, 223, 235, 0.719);
     font-family:'Press Start 2P';
     font-size: 50px;
     position: absolute;
-    top:50%;
+    top:40%;
     left: 50%;
     transform: translate(-50%, -50%);
 
