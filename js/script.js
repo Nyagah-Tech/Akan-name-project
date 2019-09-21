@@ -21,9 +21,11 @@ function calculator(){
     }
     document.getElementById("result").innerHTML=name;
     window.scrollTo(0,document.body.scrollHeight);
-    
 
-   
-    return name;
-  
+        var frm = document.getElementsByName('date')[0];
+        frm.submit(); // Submit
+        frm.reset(dateObject);  // Reset
+        return false; // Prevent page refresh
+
+     return name;
 }
