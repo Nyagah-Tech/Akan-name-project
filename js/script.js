@@ -17,10 +17,11 @@ function calculator(){
     }else if (gender==="female"){
         name=female[day];
     }else{
-        console.log("invalid option")
+        alert("invalid option")
     }
     document.getElementById("result").innerHTML=name;
     window.scrollTo(0,document.body.scrollHeight);
+    document.getElementsByClass("myForm").reset();
    
     return name;
   
