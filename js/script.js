@@ -21,7 +21,8 @@ function calculator(){
     }
     document.getElementById("result").innerHTML=name;
     window.scrollTo(0,document.body.scrollHeight);
-    document.getElementsByClass("myForm").reset();
+    
+
    
     return name;
   
