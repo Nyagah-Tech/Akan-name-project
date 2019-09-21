@@ -1,0 +1,55 @@
+p{
+    text-align: center;
+    color:white;
+    font-size: 20px;
+}
+body{
+    background-image: url("https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapertag.com%2Fwallpaper%2Ffull%2Fc%2F0%2F0%2F382612-plain-backgrounds-1920x1200-pictures.jpg&f=1&nofb=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+
+}
+
+h1{
+    color:white;
+    font-family:'Press Start 2P';
+    font-size: 50px;
+    position: absolute;
+    top:5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.card-body{
+    color:black;
+    font-size: 30px;
+}
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+ 
+
+  .column {
+    float: left;
+    width:100%;
+    padding: 15px;
+  }
+  
+  /* Clear floats after the columns */
+  .row{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .oyaa {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+ 
+ 
+  
