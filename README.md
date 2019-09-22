@@ -13,6 +13,10 @@ For this application to learn well ensure you have an updated browser and also y
 The language used to develop this application is the HTML,CSS,BOOTSTRAP and JAVASCRIPT.. 
 ## Support and contact details
  kindly reach out our support team @dannyagah13@gmail.com for any technical problem or any idea we can implement to ensure you get the result you need.
+## BDD(Behaviour Driven Development)
+The user is input his or her gender..
+Inputs his or her year,date and month of birth.
+The application generates the Akan Name for the user acording to the input it receives. 
 ### License
 
 Copyright (c)2019 
