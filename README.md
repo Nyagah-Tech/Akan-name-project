@@ -1,6 +1,6 @@
 # The Akan Name Engine
-###### Akan Name Engine is a web-application that give a user an Akan Name depending of the on the details the user's inputs.
-#### This project was done by Daniel Muvinju.  
+Akan Name Engine is a web-application that give a user an Akan Name depending of the on the details the user's inputs.
+This project was done by Daniel Muvinju.  
 ## Description
 Akan Name Engine is a web-application that generates an akan name for the user.The application uses the the users birthday and gender to generate the Akan Name.Akan naming is a Ghananian culture practiced by people in ghana.They name children according to day of the week the were born example:a male born on sunday he would be named Kwasi while a female is called Akosua.We hope by creating this web-application 
 you will enjoy its services.
